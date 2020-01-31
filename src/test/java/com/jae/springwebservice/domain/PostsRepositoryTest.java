@@ -13,7 +13,7 @@ import java.util.List;
 public class PostsRepositoryTest {
 
     @Autowired
-    PostsRepository postsRepository;
+    PostsDao postsRepository;
 
     @After
     public void cleanup() {
